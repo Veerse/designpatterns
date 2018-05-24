@@ -15,4 +15,8 @@ public class Fire extends Decorator {
     public Double getDamages (){
         return wrappenWeapon.getDamages() + 40d;
     }
+
+    public void setFire () {
+        System.out.println("fire!");
+    }
 }
